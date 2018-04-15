@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', start)
 
 function start () {
- one();two();
+ one();two();three();
   // The first example is done for you. Uncomment the line below and reload the browser.
   // one()
     
@@ -25,5 +25,8 @@ function start (){
   two.classList.add('green')
 }
 // CREATE FUNCTION three HERE
-
+function start (){
+  var three = document.getElementById('three')
+  three.classList.add('pink')
+}
 // CREATE FUNCTION makeVisible HERE
